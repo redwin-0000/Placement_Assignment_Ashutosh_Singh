@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainContainer {
+  background-color: #081f37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  height: 100vh;
+  width: 100vw;
+  height: 100dvh;
+  width: 100dvw;
+}
+.mainContainer > h1 {
+  color: #fff;
+}
+
+.counterContainer {
+  background-color: #5fc9f3;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.incbtn {
+  background-color: green;
+  border: none;
+  padding: 7px 25px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.decbtn {
+  background-color: red;
+  border: none;
+  padding: 7px 25px;
+  color: #fff;
+  border-radius: 10px;
+}

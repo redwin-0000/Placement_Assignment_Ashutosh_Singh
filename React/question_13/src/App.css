@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainContainer {
+  background-color: #f1f6f9;
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calContainer {
+  background-color: #394867;
+  height: 250px;
+  width: 400px;
+}
+.inputContainer {
+  background-color: #394867;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.input {
+  flex-grow: 1;
+  height: 28px;
+  border-radius: 5px;
+}
+.inputBtn {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  background-color: #9ba4b5;
+  border: none;
+  border-radius: 10px;
+}
+.calLayout {
+  background-color: #212a3e;
+  height: 210px;
+}
+.calBtnContainer {
+  background-color: #212a3e;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.calBtn {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+.calBtnContainerEqual {
+  display: flex;
+  justify-content: flex-end;
+}
+.calBtnEqual {
+  margin: 10px;
+}
+.errorBox {
+  color: #fff;
+}

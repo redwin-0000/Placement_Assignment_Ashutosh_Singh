@@ -1,0 +1,6 @@
+export const action = {
+  ADDTODO: "ADDTODO",
+  REMOVETODO: "REMOVETODO",
+  UPDATETODO: "UPDATETODO",
+  GETTODO: "GETTODO",
+};

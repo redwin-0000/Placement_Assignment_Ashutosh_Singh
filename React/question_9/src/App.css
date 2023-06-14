@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: auto;
+}
+.divlight {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: white;
+}
+.divdark {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+  color: black;
+}
+
+.headerlight {
+  width: 90%;
+  height: 10vh;
+  background-color: #758283;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.headerdark {
+  width: 90%;
+  height: 10vh;
+  background-color: #38cc77;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.mainlight {
+  width: 90%;
+  height: 70vh;
+  background-color: #242b2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.maindark {
+  width: 90%;
+  height: 70vh;
+  background-color: #3dbe29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerlight {
+  height: 10vh;
+  width: 90%;
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerdark {
+  height: 10vh;
+  width: 90%;
+  background-color: #6ec72d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonlight {
+  background-color: #0d0d0d;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  box-shadow: -1px -1px 5px 1px;
+}
+.buttonlight:hover {
+  box-shadow: 1px 1px 5px 1px;
+}
+.buttondark {
+  background-color: #66ad47;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  box-shadow: -1px -1px 5px 1px;
+}
+.buttonlight:hover {
+  box-shadow: 1px 1px 5px 1px;
+}

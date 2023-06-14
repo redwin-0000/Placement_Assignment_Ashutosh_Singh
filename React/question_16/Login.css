@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.mCont {
+  background-color: #79e0ee;
+  height: 100vh;
+  width: 100vw;
+}
+.loginCard {
+  height: 500px;
+  width: 300px;
+  background-color: #fbffdc;
+}
